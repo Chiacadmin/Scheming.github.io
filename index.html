@@ -11,16 +11,17 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <style>
-        font-family: "madefor-display",
+        body {
+            font-family: "madefor-display",
                 "helveticaneuew01-45ligh",
                 "helveticaneuew02-45ligh",
                 "helveticaneuew10-45ligh",
                 sans-serif;
             font-weight: lighter;
-            color: #333;
+            background-color: #fefefe;
         }
-        p {
-                    text-align:justify;
+        .container p {
+            text-align:justify;
         }
     </style>
 </head>
@@ -123,6 +124,43 @@
         <div>
             <h3>Detailed Results</h3>
         </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Evaluation Criterion</th>
+              <th scope="col">Model / Setting</th>
+              <th scope="col">Runs</th>
+              <th scope="col">Reported % (Frontier Models Can Scheme) </th>
+                <th scope="col">Our Baseline % </th>
+                <th scope="col">Our Post-Mitigation %</th>
+                <th scope="col">Relative Reduction</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Oversight Subversion</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Self-Exfiltration </td>
+              
+            </tr>
+            <tr>
+              <td>Goal Guarding</td>
+              
+            </tr>
+              <tr>
+              <td>Instrumental Alignment Faking (IAF)</td>
+              
+            </tr>
+              <tr>
+              <td>Sandbagging</td>
+              
+            </tr>
+          </tbody>
+        </table>
     </section>
 
 
