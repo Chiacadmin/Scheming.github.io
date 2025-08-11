@@ -5,4 +5,4 @@ Advanced AI models can exhibit “scheming” behaviors—deceptive actions take
 misaligned long-term goals. Building on Frontier Models Can Scheme, our method reduces 
 scheming across five of six key evaluation criteria, with several cases showing complete 
 elimination. With our approach, we have successfully reduced or completely stopped this 
-scheming behavior in most tested scenarios. 
+scheming behavior in most tested scenarios.
